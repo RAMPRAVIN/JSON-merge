@@ -6,9 +6,9 @@ fn3=input("Enter the input file name 3 :")
 fn4=input("Enter the output file name :")
 fs=int(input("Enter the maximum file size (in bytes) :"))
 #content
-f1=fn1+'.json'
-f2=fn2+'.json'
-f3=fn3+'.json'
+f1=fn1+'1.json'
+f2=fn2+'2.json'
+f3=fn3+'3.json'
 f4=fn4+'.json'
 with open (f_p/f1) as f:
     d1=json.load(f)
